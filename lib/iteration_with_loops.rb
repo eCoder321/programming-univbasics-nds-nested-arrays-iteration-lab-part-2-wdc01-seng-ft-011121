@@ -8,8 +8,9 @@ def find_min_in_nested_arrays(src)
     for a in i 
       least = a if a <= least 
     end
+    new_array << least
   end
-
+  new_array
 end
 
 spice_rack = [
